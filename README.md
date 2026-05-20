@@ -2,7 +2,7 @@
 
 A full-stack web application for managing users with a modern React frontend and Node.js/Express backend. This project demonstrates a complete MERN stack implementation with user creation, retrieval, and management functionality.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Technology Stack](#technology-stack)
@@ -13,7 +13,7 @@ A full-stack web application for managing users with a modern React frontend and
 - [API Documentation](#api-documentation)
 - [Dependencies](#dependencies)
 
-## 🎯 Project Overview
+## Project Overview
 
 This is a comprehensive user management system that allows users to:
 
@@ -24,7 +24,7 @@ This is a comprehensive user management system that allows users to:
 
 The application is built with modern web technologies and follows best practices for code organization, styling, and state management.
 
-## 💻 Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -45,7 +45,7 @@ The application is built with modern web technologies and follows best practices
 - **CORS** - Cross-Origin Resource Sharing
 - **dotenv** - Environment variable management
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 user_management-main/
@@ -84,7 +84,7 @@ user_management-main/
 └── README.md                         # This file
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -140,7 +140,7 @@ user_management-main/
    ```
    The application will run on `http://localhost:5173`
 
-## 📝 Available Commands
+## Available Commands
 
 ### Backend Commands
 
@@ -159,7 +159,7 @@ user_management-main/
 | `npm run preview` | Preview the production build locally                      |
 | `npm run lint`    | Run ESLint to check code quality                          |
 
-## ✨ Project Features
+## Project Features
 
 1. **User Management**
    - Create new users with form validation
@@ -187,7 +187,7 @@ user_management-main/
    - Separate routes for different views
    - Dynamic routing for individual users
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Base URL
 
@@ -211,7 +211,7 @@ Backend uses the following environment variables (set in `.env`):
 - `DB_URL` - MongoDB connection string
 - `FRONTEND_URL` - Frontend URL for CORS configuration
 
-## 📦 Dependencies
+## Dependencies
 
 ### Backend Dependencies
 
@@ -244,7 +244,7 @@ Backend uses the following environment variables (set in `.env`):
 - @vitejs/plugin-react ^5.1.1 - React plugin for Vite
 - And various ESLint plugins and TypeScript definitions
 
-## 🔧 Development Workflow
+## Development Workflow
 
 1. **Start Backend:**
 
@@ -264,7 +264,7 @@ Backend uses the following environment variables (set in `.env`):
 
 4. Make changes to the code - both frontend and backend support hot-reload during development
 
-## 📚 Additional Resources
+## Additional Resources
 
 - **Vite Documentation:** https://vitejs.dev
 - **React Documentation:** https://react.dev
@@ -273,7 +273,7 @@ Backend uses the following environment variables (set in `.env`):
 - **React Router Documentation:** https://reactrouter.com
 - **TailwindCSS Documentation:** https://tailwindcss.com
 
-## 📄 License
+## License
 
 ISC License
 

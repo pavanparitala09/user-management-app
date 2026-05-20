@@ -2,7 +2,7 @@
 
 A robust Node.js/Express backend server that provides RESTful API endpoints for user management. This server handles user creation, retrieval, and database operations using MongoDB with Mongoose ODM.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Technology Stack](#technology-stack)
@@ -14,7 +14,7 @@ A robust Node.js/Express backend server that provides RESTful API endpoints for 
 - [Dependencies](#dependencies)
 - [File Descriptions](#file-descriptions)
 
-## 🎯 Overview
+## Overview
 
 This backend server is built with Express.js and provides a complete API for managing user data. It includes:
 
@@ -24,7 +24,7 @@ This backend server is built with Express.js and provides a complete API for man
 - Environment-based configuration
 - Error handling and validation
 
-## 💻 Technology Stack
+## Technology Stack
 
 - **Node.js** - JavaScript runtime environment
 - **Express.js 5.2.1** - Web application framework
@@ -34,7 +34,7 @@ This backend server is built with Express.js and provides a complete API for man
 - **dotenv 17.3.1** - Environment variable loader
 - **Nodemon 3.1.14** - Development server auto-reload (dev only)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BackEnd/
@@ -50,7 +50,7 @@ BackEnd/
     └── userModel.js          # User data model and schema definition
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -93,7 +93,7 @@ BackEnd/
    npm run dev
    ```
 
-## 🔧 Environment Configuration
+## Environment Configuration
 
 Create a `.env` file with the following variables:
 
@@ -119,7 +119,7 @@ DB_URL=mongodb+srv://username:password@cluster.mongodb.net/user_management
 FRONTEND_URL=http://localhost:5173
 ```
 
-## 📝 Available Commands
+## Available Commands
 
 | Command       | Description                              | Usage         |
 | ------------- | ---------------------------------------- | ------------- |
@@ -137,7 +137,7 @@ npm run dev
 # Any code changes will automatically restart the server
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Base URL
 
@@ -165,7 +165,7 @@ The server is configured to accept requests from:
 
 This prevents unauthorized API access and allows secure communication between frontend and backend.
 
-## 📦 Dependencies
+## Dependencies
 
 ### Production Dependencies
 
@@ -188,7 +188,7 @@ This prevents unauthorized API access and allows secure communication between fr
 npm install
 ```
 
-## 📄 File Descriptions
+## File Descriptions
 
 ### `server.js`
 
@@ -257,7 +257,7 @@ Structure:
 - Apply validations and constraints
 - Export User model
 
-## 🔄 Request/Response Flow
+## Request/Response Flow
 
 ```
 Client Request
@@ -271,14 +271,14 @@ MongoDB Database
 Response sent back to Client
 ```
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 1. **CORS Configuration** - Only allows requests from specified frontend URL
 2. **Environment Variables** - Sensitive data stored in .env file (not committed to version control)
 3. **Input Validation** - Mongoose schema enforces data types and structure
 4. **Database Connection** - Protected connection string in environment variable
 
-## 🐛 Common Issues and Solutions
+## Common Issues and Solutions
 
 ### Port Already in Use
 
@@ -312,7 +312,7 @@ FRONTEND_URL=http://localhost:5173
 npm install --save-dev nodemon
 ```
 
-## 📚 Additional Resources
+## Additional Resources
 
 - **Express Documentation:** https://expressjs.com
 - **Mongoose Documentation:** https://mongoosejs.com
@@ -320,13 +320,13 @@ npm install --save-dev nodemon
 - **Node.js Documentation:** https://nodejs.org/docs
 - **CORS Guide:** https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [Main Project README](../README.md)
 - [Frontend README](../FrontEnd/README.md)
 - [API Testing Guide](./test.http)
 
-## 📄 License
+## License
 
 ISC License
 

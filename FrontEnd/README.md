@@ -2,7 +2,7 @@
 
 A modern, responsive React application for managing user data with a clean user interface. Built with React 19, Vite, React Router, and TailwindCSS for an optimal development and user experience.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Technology Stack](#technology-stack)
@@ -15,7 +15,7 @@ A modern, responsive React application for managing user data with a clean user 
 - [Dependencies](#dependencies)
 - [File Descriptions](#file-descriptions)
 
-## 🎯 Overview
+## Overview
 
 This frontend application provides a user-friendly interface for managing users. It features:
 
@@ -27,7 +27,7 @@ This frontend application provides a user-friendly interface for managing users.
 - Modern styling with TailwindCSS
 - Fast development experience with Vite
 
-## 💻 Technology Stack
+## Technology Stack
 
 - **React 19.2.0** - UI library
 - **Vite 7.3.1** - Build tool and development server
@@ -38,7 +38,7 @@ This frontend application provides a user-friendly interface for managing users.
 - **ESLint 9.39.1** - Code quality and linting
 - **@vitejs/plugin-react 5.1.1** - React plugin for Vite
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FrontEnd/
@@ -68,7 +68,7 @@ FrontEnd/
         └── User.jsx              # Individual user detail component
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ FrontEnd/
    ```
    This creates an optimized production build in the `dist/` folder.
 
-## 📝 Available Commands
+## Available Commands
 
 | Command           | Description                      | Usage             |
 | ----------------- | -------------------------------- | ----------------- |
@@ -140,7 +140,7 @@ npm run preview
 npm run lint
 ```
 
-## 🏗️ Component Architecture
+## Component Architecture
 
 ### Component Hierarchy
 
@@ -208,7 +208,7 @@ App (Root)
 - Option to go back to users list
 - Edit/Delete functionality (can be added)
 
-## 🔀 Routing
+## Routing
 
 React Router manages all navigation. Routes are defined in `App.jsx`:
 
@@ -229,7 +229,7 @@ React Router manages all navigation. Routes are defined in `App.jsx`:
 navigate(`/user/${userId}`);
 ```
 
-## 🎨 Styling
+## Styling
 
 ### TailwindCSS Integration
 
@@ -265,7 +265,7 @@ Tailwind directives, global variables, base styles
 </div>
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Production Dependencies
 
@@ -298,7 +298,7 @@ Tailwind directives, global variables, base styles
 npm install
 ```
 
-## 📄 File Descriptions
+## File Descriptions
 
 ### `main.jsx`
 
@@ -368,7 +368,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 - Environment variables
 - Routing and rewrite rules
 
-## 🔄 API Integration
+## API Integration
 
 The frontend communicates with the backend API at:
 
@@ -391,7 +391,7 @@ const response = await fetch("http://localhost:5000/user-api/add", {
 });
 ```
 
-## 🎯 Form Validation
+## Form Validation
 
 Uses **React Hook Form** for efficient form management:
 
@@ -410,7 +410,7 @@ const {
 }
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Vercel
 
@@ -422,7 +422,7 @@ const {
 
 The `vercel.json` file contains deployment configuration.
 
-## 🛠️ Development Tips
+## Development Tips
 
 1. **Hot Module Replacement (HMR):**
    - Changes are reflected instantly without full reload
@@ -441,7 +441,7 @@ The `vercel.json` file contains deployment configuration.
    - Lazy load routes with React.lazy()
    - Optimize images and assets
 
-## 📚 Additional Resources
+## Additional Resources
 
 - **React Documentation:** https://react.dev
 - **Vite Documentation:** https://vitejs.dev
@@ -450,12 +450,12 @@ The `vercel.json` file contains deployment configuration.
 - **TailwindCSS Documentation:** https://tailwindcss.com
 - **ESLint Documentation:** https://eslint.org
 
-## 🔗 Related Documentation
+## Related Documentation
 
 - [Main Project README](../README.md)
 - [Backend README](../BackEnd/README.md)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Port 5173 Already in Use
 
@@ -487,7 +487,7 @@ npm install
 npm run lint
 ```
 
-## 📄 License
+## License
 
 ISC License
 
